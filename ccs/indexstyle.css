@@ -1,0 +1,125 @@
+/*Estilos CS*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+
+ 
+  body {
+    background-color: #131110;
+    
+  }
+
+  .rock-salt-regular {
+        font-family: "Rock Salt", cursive;
+        font-weight: 400;
+        font-style: normal;
+        }
+    
+    .slider {
+        background-image: url(../img/background.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+
+    body h1 {
+        text-align: center;
+        color: white;
+        padding: 30px;
+        font-family: Rock Salt;
+    }
+
+    body h2 {
+        
+        color: #930a06;
+    }
+
+    .img-fluid {
+        width: 100vh;
+        border-radius: 30px;
+        margin-top: 40px;
+        align-content: center;
+        justify-content: center;
+        
+      }
+   
+
+    .navbar-nav li {
+        padding: 10px;
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    .footer-1 {
+        color: white;
+        padding: 10px;
+    }
+
+    .footer-1 a {
+        text-decoration: none;
+
+    }
+
+    .carrousel {
+        background-color: #131110;
+        
+    }
+
+    .carrousel p, h5 {
+      background-color: rgb(15, 15, 15, 0.5);
+      border-radius: 10px;
+      
+    }
+
+    .fãs {
+        border: 1px solid rgb(119, 0, 0);
+        padding: 10px;
+        margin: 30px;
+        color: white;
+        border-radius: 10px;
+        font-size: 30px;
+
+    }
+
+    .tickets {
+        border: 1px solid rgb(161, 161, 2);
+        padding: 10px;
+        margin: 30px;
+        color: white;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+  
+    .clubeFãs{
+        background-color: #131110;
+        color: white;
+        padding: 50px; 
+        
+    }
+
+    .clubeFãs ul {
+        margin-top: 30px;
+        padding: 50px;
+        border: 1px dashed rgb(185, 185, 185);
+        
+    }
+
+    .clubeFãs li {
+        padding: 10px;
+        font-size: large;
+    }
+
+    .btn:hover {
+      cursor: url(../img/Dug-Rock-On.svg), auto;
+    }
+    
+    

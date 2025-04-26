@@ -1,0 +1,219 @@
+/*Estilos CS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+
+  .rock-salt-regular {
+        font-family: "Rock Salt", cursive;
+        font-weight: 400;
+        font-style: normal;
+        }
+    
+    .slider {
+        background-image: url(../img/background.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    nav .active {
+      background-color: rgb(119, 0, 0);
+      border-radius: 20px;
+    }
+
+    body h1 {
+        text-align: center;
+        color: white;
+        padding: 30px;
+        font-family: Rock Salt;
+    }
+
+    body h2 {
+        text-align: center;
+        color: #930a06;
+    }
+
+    .navbar-nav li {
+        padding: 10px;
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    .lista {
+      display: flex;
+      height: 750px;
+      gap: 5em;
+      background-color: #131110;
+      border: 3px solid rgb(255, 255, 255);
+      padding: 50px;
+      
+      
+    }
+
+    .item {
+      width: 250px;
+      height: 200px;
+      position: relative;
+
+      
+      
+      transition: 1s;
+      margin-bottom: 50px;
+      
+
+      
+      
+    }
+
+    .lista img {
+      width: 100%;
+      height: 100%;
+      border-radius: 30px;
+    }
+
+    .item p {
+      color: white;
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, 10%);
+      opacity: 0;
+      transition: 1s;
+      background-color: #1311109a;
+      
+      text-align:left;
+    }
+
+    .item:hover {
+      transform: scale(1.05);
+
+    }
+
+    .item:hover p {
+      opacity: 1;
+      top: 50%;
+    }
+
+    
+
+    .lista:hover .item:not(:hover) {
+      filter: blur(5px);
+    }
+
+    .discografia {
+      background-color: #131110;
+      text-align: center;
+      
+      padding: 30px;
+
+    }
+
+    .table {
+      
+      margin: 0px;
+      align-items:center;
+      
+    }
+
+    .tableD {
+      background-color:#131110;
+    }
+
+    .table td {
+      text-align:start;
+    }
+
+    .table th {
+      text-align:center;
+      color: #930a06;
+      font-size: larger;
+      
+    }
+
+    iframe {
+      border-radius: 12px;
+      width: 100%;
+      height: 352px;
+      
+    }
+
+    
+
+    
+    .footer-1 {
+        color: white;
+        padding: 10px;
+    }
+
+    .footer-1 a {
+        text-decoration: none;
+
+    }
+
+   @media (max-width:1300px) {
+     .lista {
+        display: block;   
+        height: auto;
+        
+           
+    }
+
+      .item {
+        margin: 30px 0px;
+        position: relative;
+        left: 40%;
+        width: 250px;
+      height: 250px;
+        
+      }
+
+      .item p {
+        position: absolute;
+        transform: translate(-50%,-50%);
+       
+      }
+      
+
+   }
+
+   @media (max-width:700px) {
+     .lista {
+        display: block; 
+        height: auto;
+       
+        
+      
+        
+                  
+    }
+
+      .item {
+        margin: 30px 0px;
+        position: relative;
+        left: 7%;
+        width: 250px;
+      height: 250px;
+        
+      }
+
+      .item p {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        
+      }
+
+
+   }
+   .btn:hover {
+      cursor: url(../img/Dug-Rock-On.svg), auto;
+    }
+
+
+

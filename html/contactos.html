@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guns and Rose Fan Page</title>
+    <meta name="Author" content="Yohnny Rodriguez">
+    <meta name="description" content="Site e clube de fãs do Guns N Roses, com notícias, fotos, bilhetes para concertos e muito mais.">
+    <meta name="keywords" content="Guns N Roses, Guns N Roses concert tickets, Guns N Roses tour dates, Guns N Roses fan club, Guns N Roses music, GnR Nightrain, Guns N Roses Nightrain">
+    
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="../ccs/contactostyle.css">
+    
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <!-- Font awesome-->
+    <script src="https://kit.fontawesome.com/1c7a45df75.js" crossorigin="anonymous"></script>
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+     
+
+</head>
+
+    
+
+<body>
+     <header>
+        <section class="container-fluid slider">
+            <h1 class="dislay-4">Guns N' Rose Fan Page</h1>
+        </section>
+
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../img/Dug-Rock-On.svg" alt="Manito" width="30" height="24" class="d-inline-block align-text-top">
+                    Let's Rock!
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="sobre.html">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="albuns.html">Albuns</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tour.html">Tour</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contactos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+
+     </header>
+
+   <section class="formZone">
+
+    <h2 class="dislay-2">Formulario de Contacto</h2>
+
+<div class="container">
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+            Ótimo
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Apelido</label>
+          <input type="text" class="form-control" id="validationCustom02" required>
+          <div class="valid-feedback">
+            Parece-me bem!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Data nascimento</label>
+          <div class="input-group has-validation">
+            <input type="date" class="form-control" id="birthday" name= "data nascimento" required>
+            <div class="invalid-feedback">
+                Introduzir uma data de nascimento.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+                <label for="validationCustomEmail" class="form-label">Email</label>
+                <div class="input-group has-validation">
+                  <input type="email" class="form-control" id="validationCustomEmail"  placeholder="name@example.com" required>
+                  <div class="invalid-feedback">
+                    Introduza um endereço de correio eletrónico válido
+                  </div>
+                </div>
+        </div>
+        <div class="col-md-6">
+                <label for="validationCustomTel" class="form-label">Telefone</label>
+            <div class="input-group has-validation">
+                <input type="tel" class="form-control" id="validationCustomTel"  placeholder="+351-123-456-789" pattern="^\+\d{1,3}?\d{7,14}$" required>
+                <div class="invalid-feedback">
+                    Introduza um numero de telemovel válido
+                  </div>    
+            </div>
+
+        </div>
+        <div class="col-md-12">
+                <label for="validationTextarea" class="form-label">Textarea</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Quero pertencer ao seu clube de fãs" minlength="10"  required></textarea>
+                <div class="invalid-feedback">
+                    Por favor, introduza uma mensagem na área de texto (mínimo de 10 caracteres).
+        </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+                Concordar com os termos e condições
+            </label>
+            <div class="invalid-feedback">
+                É necessário dar o seu acordo antes de enviar.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+           
+          <button class="btn btn-danger" type="submit">Enviar formulário</button>
+        </div>
+
+        <div class="alert alert-succes mb-2 d-none" id="alert-success">
+            Formulário enviado com sucesso
+          </div>
+
+          
+      </form>
+      
+</div>
+   </section>
+     
+
+
+
+
+     
+     <footer class="footer bg-dark container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../img/Dug-Rock-On.svg" alt="Manito" width="30" height="24" class="d-inline-block align-text-top">
+                    Let's Rock!
+                  </a>
+            </div>
+                  <div>
+                    <ul class="navbar-nav float-right">
+                      <li class="nav-item">
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://web.whatsapp.com/" target='_blank'><i class="fa-solid fa-phone"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+            </nav>
+<hr>
+
+ <div class="row footer-1 bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="col-lg-6">
+    <a href="https://policies.google.com/privacy?hl=pt-PT" target="_blank">Política de privacidade y Termos de uso</a>
+  </div>
+
+        <div class="col-lg-6 footer-1">
+            <p class="float-right">© 2024 Yohnny Rodriguez</p>
+            <p>
+              <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                  <img style="border:0;width:88px;height:31px"
+                      src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                      alt="¡CSS Válido!">
+              </a>
+          </p>
+        </div>
+    </div>
+    
+
+</footer>
+
+
+<!--Bootstrap Js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>  
+<script src="../js/validationForm.js"></script>
+</body>
+
+</html>

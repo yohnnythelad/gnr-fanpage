@@ -1,0 +1,176 @@
+/*Estilos CS*/
+
+.rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+.slider {
+    background-image: url(../img/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+nav .active {
+  background-color: rgb(119, 0, 0);
+  border-radius: 20px;
+}
+
+body h1 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-family: Rock Salt;
+    
+}
+
+body h2 {
+    text-align: center;
+    color: #930a06;
+    border: 1px double white;
+    padding: 20px;
+}
+
+.navbar-nav li {
+    padding: 10px;
+}
+
+
+
+.float-right {
+    float: right;
+}
+
+.zoneTour {
+    background-color: #131110;
+}
+
+img .img-fluid {
+  max-width: 100%;
+  height: auto;
+  
+  }
+
+
+.tour {
+    width: 100vw;
+
+}
+
+
+
+
+.ticketZone {
+    margin-top: 10px;
+    
+
+}
+
+.table td, th {
+    padding: 50px 20px;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.table tr {
+    border-bottom: 1px solid white;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-bottom: 20px ;
+}
+
+.btn-outline-warning{
+    color: white;
+    padding: 10px 50px;
+}
+
+
+.goBack {
+    margin-top: 10px;
+    
+}
+
+.footer-1 {
+    color: white;
+    padding: 10px;
+}
+
+.footer-1 a {
+    text-decoration: none;
+
+}
+
+
+
+@media (max-width:1300px){
+
+.table {
+  font-size: small;
+
+}
+
+.table td, th {
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .btn-outline-warning{
+    color: white;
+    padding: 10px 20px;
+    
+}
+}
+
+@media (max-width:700px){
+
+  .table {
+    font-size: small;
+    
+  }
+
+  .table td, th {
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    
+  }
+
+  .btn-outline-warning{
+    color: white;
+    padding: 10px 20px;
+    
+}
+
+.btn {
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-bottom: 20px ;
+    
+    
+}
+
+}
+
+.btn:hover {
+  cursor: url(../img/Dug-Rock-On.svg), auto;
+}
+
